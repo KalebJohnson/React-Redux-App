@@ -12,6 +12,8 @@ const Character = ({ character }) => (
       <img style={imgStyle} src={character.image} alt='' />
       <h3 style={fontStyle}>{character.name}</h3>
       <h4 style={fontStyle}> {character.species} </h4>
+      <h4 style={fontStyle}> {character.status} </h4>
+      <h4 style={fontStyle}> {character.gender} </h4>
 
     </div>
 
